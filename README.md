@@ -100,12 +100,10 @@ I received a damaged product and would like a replacement as soon as possible.
 
 ```text
 Predicted Category: Product Defect
-Confidence Score: 91.4%
-Urgency Level: High
-Extracted Keywords: product, damaged, replacement
-
-Generated Response:
-Thank you for bringing this issue to our attention. We regret the inconvenience caused and have forwarded your complaint to the concerned team for immediate review and resolution.
+Confidence : 97.7%
+Urgency score: 20
+Keywords: received, product, damaged
+AI Response: Thank you. We are processing your request.
 ```
 
 ---
