@@ -132,8 +132,8 @@ AI Response: Thank you. We are processing your request.
 
 ## 👩‍💻 Authors
 
-* Sreethi
 * Jessy Satwika
+* Sreethi
 
 ---
 
