@@ -1,6 +1,6 @@
 # 🤖 AI Complaint Classifier
 
-A Machine Learning-powered web application that analyzes customer complaints and automatically predicts complaint categories, confidence scores, urgency levels, and relevant keywords. The system also generates automated responses to support customer service operations.
+A Machine Learning-powered web application that analyzes customer complaints and automatically predicts the complaint category, confidence score, urgency level, and relevant keywords. The system also generates automated responses to assist customer support teams.
 
 ## 🚀 Features
 
@@ -14,22 +14,35 @@ A Machine Learning-powered web application that analyzes customer complaints and
 
 ## 🛠️ Technologies Used
 
-**Backend:** Python, Flask
+### Backend
 
-**Machine Learning:** Scikit-learn, LinearSVC, CalibratedClassifierCV, TF-IDF Vectorization
+* Python
+* Flask
 
-**Data Processing:** Pandas, NumPy
+### Machine Learning
 
-**Frontend:** HTML, CSS
+* Scikit-learn
+* LinearSVC
+* CalibratedClassifierCV
+* TF-IDF Vectorization
+
+### Data Processing
+
+* Pandas
+* NumPy
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+
+---
 
 ## 📂 Project Structure
 
 ```text
 Complaint_Classifier/
-│
-├── complaint_classifier/
-│   └── templates/
-│       └── index.html
 │
 ├── app.py
 ├── train_model.py
@@ -38,25 +51,66 @@ Complaint_Classifier/
 ├── refined_model.pkl
 ├── vectorizer.pkl
 ├── requirements.txt
+├── complaint_classifier/
+│   └── templates/
+│       └── index.html
 └── README.md
 ```
 
-## ⚙️ Installation
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/jessysatwika03/Complaint_Classifier.git
 cd Complaint_Classifier
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+### 3️⃣ Run the Application
+
+```bash
 python app.py
 ```
 
-Open your browser and visit:
+### 4️⃣ Open in Browser
+
+Visit:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-## 🔍 Workflow
+---
+
+## 🔍 Sample Input
+
+```text
+I received a damaged product and would like a replacement as soon as possible.
+```
+
+### Sample Output
+
+```text
+Predicted Category: Product Defect
+Confidence Score: 91.4%
+Urgency Level: High
+Extracted Keywords: product, damaged, replacement
+
+Generated Response:
+Thank you for bringing this issue to our attention. We regret the inconvenience caused and have forwarded your complaint to the concerned team for immediate review and resolution.
+```
+
+---
+
+## 🔄 Machine Learning Workflow
 
 1. Complaint Text Input
 2. Text Preprocessing
@@ -66,17 +120,25 @@ http://127.0.0.1:5000
 6. Keyword Extraction
 7. Automated Response Generation
 
+---
+
 ## 📈 Future Enhancements
 
 * Sentiment Analysis
 * Complaint Analytics Dashboard
 * User Authentication
-* Cloud Deployment
 * Multi-language Support
+* Cloud Deployment
 
-## 👩‍💻 Author
+---
 
--**Jessy Satwika**
--**Sreethi**
+## 👩‍💻 Authors
 
-Machine Learning & Data Science Enthusiast
+* Sreethi
+* Jessy Satwika
+
+---
+
+## 📜 License
+
+This project was developed for educational and learning purposes.
