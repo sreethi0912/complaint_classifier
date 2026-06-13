@@ -1,4 +1,4 @@
-# 🤖 AI Complaint Classifier
+# 🤖 Customer Complaint Classification System 
 
 A Machine Learning-powered web application that analyzes customer complaints and automatically predicts the complaint category, confidence score, urgency level, and relevant keywords. The system also generates automated responses to assist customer support teams.
 
